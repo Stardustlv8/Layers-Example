@@ -1,0 +1,23 @@
+﻿
+  [
+    {
+      "ProductID": 1,
+      "ProductName": "Azucar",
+      "UnitPrice": 20,
+      "UnitInStock": 100
+    },
+    {
+      "ProductID": 2,
+      "ProductName": "Tortillas",
+      "UnitPrice": 10,
+      "UnitInStock": 50
+
+    },
+    {
+      "ProductID": 3,
+      "ProductName": "Coca Cola",
+      "UnitPrice": 11,
+      "UnitInStock": 100
+
+    }
+  ]
