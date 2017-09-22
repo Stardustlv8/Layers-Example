@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -44,14 +45,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DALJson\DALJson.csproj">
-      <Project>{d8d75af6-8380-4b98-b3f9-c067eb0047e1}</Project>
-      <Name>DALJson</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DAL\DAL.csproj">
-      <Project>{7536db14-d6a5-4a05-887c-f0fe05a6a6b0}</Project>
-      <Name>DAL</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ProductInterface\ProductInterface.csproj">
       <Project>{082b311d-c276-4f86-9c36-4b4b4cfe72a0}</Project>
       <Name>ProductInterface</Name>

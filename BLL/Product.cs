@@ -21,6 +21,7 @@ namespace BLL
 
         public delegate void ErrorEventHandler(object sender, ErroEventArgs e);
         public event ErrorEventHandler ErrorEvent;
+
         public Entities.Product GetProductByID(int ID)
         {
             Entities.Product Result;
